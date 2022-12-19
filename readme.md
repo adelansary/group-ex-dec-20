@@ -1,8 +1,11 @@
 Make a todo app.
 
+All these next html tags, add them inside the <div> that's inside <div id="main-container">.
+
 Add an input field for the note content.
 A button "Save" to save the notes in an array.
 A button "Sort By Text" to sort the notes by text, and a button "Sort By Time" to sort the notes by the timestamp when they were created.
+
 When user saves a note, create an object `{text: *the text inside the input*, timestamp: *current timestamp, looks like this: 1671402915492*}`.
 
 Save the object in an array, and save that array to localstorage.
